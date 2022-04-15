@@ -20,7 +20,7 @@ func main() {
 	cache := gache.New[string]()
 	//no expiration
 	cache.Set("KeyA", "ValueA")
-	//expire in 10 seconds
+	//expire in 3 seconds
 	cache.Set("KeyB", "ValueB", 3)
 	var str string
 	var exist bool
